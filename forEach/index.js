@@ -30,6 +30,5 @@ for (let key in usuario) {  // para objetos, devuelve la posición, el índice [
 }
 
 for (let index = 0; index < array.length; index++) { // para todo
-    const element = array[index];
-    
-}*/
+    const element = array[index]; ..
+    */
