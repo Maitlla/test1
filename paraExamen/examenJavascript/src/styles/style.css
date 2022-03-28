@@ -1,0 +1,59 @@
+body {
+    display: grid;
+    grid-template-rows: 2fr 7fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
+    text-align: center;
+    height: 99vh;
+    border: solid 4px;
+}
+
+* {
+    padding: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(120, 82, 255, 0.63);;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: solid 2px;
+}
+
+nav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: solid 2px;
+}
+
+main {
+    background-color: gainsboro; 
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: solid 2px;
+}
+
+aside {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border: solid 2px;
+}
+
+footer {
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: solid 2px;
+    color: white;
+}
+
+h1, p{
+    margin-top: 40px;
+}
+
+
+#ElModulo {
+    background-image: linear-gradient(to right, gainsboro, gainsboro, rgb(120, 82, 255, 0.63), gainsboro, gainsboro); 
+    height: 30vh;
+    padding-top: 25px;
+}
