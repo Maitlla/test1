@@ -27,7 +27,7 @@ function sumaUno(x) {
     return x;
 }
 y = sumaUno(y);
-console.log(x); /* //undefined
+console.log(x); */ //undefined
 
 
 /*
